@@ -15,27 +15,9 @@ disclosing the secret to offline dictionary attacks. This method was tailored fo
 is compatible with any group of both prime- and non-prime order,
 and comes with  a security proof providing composability guarantees. 
     " name="description">
-<meta content="xml2rfc 3.11.1" name="generator">
+<meta content="xml2rfc 2.42.0" name="generator">
 <meta content="Internet-Draft" name="keyword">
 <meta content="draft-irtf-cfrg-cpace-latest" name="ietf.draft">
-<!-- Generator version information:
-  xml2rfc 3.11.1
-    Python 3.9.5
-    appdirs 1.4.4
-    ConfigArgParse 1.3
-    google-i18n-address 2.5.0
-    html5lib 1.1
-    intervaltree 3.1.0
-    Jinja2 2.11.3
-    kitchen 1.2.6
-    lxml 4.6.3
-    pycountry 20.7.3
-    pyflakes 2.3.0
-    PyYAML 5.4.1
-    requests 2.25.1
-    setuptools 52.0.0
-    six 1.15.0
--->
 <link href="draft-irtf-cfrg-cpace.xml" rel="alternate" type="application/rfc+xml">
 <link href="#copyright" rel="license">
 <style type="text/css">@font-face {
@@ -1143,9 +1125,9 @@ and comes with  a security proof providing composability guarantees.<a href="#se
             publication of this document. Please review these documents
             carefully, as they describe your rights and restrictions with
             respect to this document. Code Components extracted from this
-            document must include Revised BSD License text as described in
+            document must include Simplified BSD License text as described in
             Section 4.e of the Trust Legal Provisions and are provided without
-            warranty as described in the Revised BSD License.<a href="#section-boilerplate.2-2" class="pilcrow">¶</a></p>
+            warranty as described in the Simplified BSD License.<a href="#section-boilerplate.2-2" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="toc">
@@ -1153,72 +1135,72 @@ and comes with  a security proof providing composability guarantees.<a href="#se
         <a href="#" onclick="scroll(0,0)" class="toplink">▲</a><h2 id="name-table-of-contents">
 <a href="#name-table-of-contents" class="section-name selfRef">Table of Contents</a>
         </h2>
-<nav class="toc"><ul class="compact toc ulBare ulEmpty">
-<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.1">
-            <p id="section-toc.1-1.1.1" class="keepWithNext"><a href="#section-1" class="xref">1</a>.  <a href="#name-introduction" class="xref">Introduction</a></p>
+<nav class="toc"><ul class="toc ulEmpty">
+<li class="toc ulEmpty" id="section-toc.1-1.1">
+            <p id="section-toc.1-1.1.1" class="keepWithNext"><a href="#section-1" class="xref">1</a>.  <a href="#name-introduction" class="xref">Introduction</a><a href="#section-toc.1-1.1.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.2">
-            <p id="section-toc.1-1.2.1" class="keepWithNext"><a href="#section-2" class="xref">2</a>.  <a href="#name-requirements-notation" class="xref">Requirements Notation</a></p>
+<li class="toc ulEmpty" id="section-toc.1-1.2">
+            <p id="section-toc.1-1.2.1" class="keepWithNext"><a href="#section-2" class="xref">2</a>.  <a href="#name-requirements-notation" class="xref">Requirements Notation</a><a href="#section-toc.1-1.2.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3">
-            <p id="section-toc.1-1.3.1"><a href="#section-3" class="xref">3</a>.  <a href="#name-definition-cpace" class="xref">Definition CPace</a></p>
-<ul class="compact toc ulBare ulEmpty">
-<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.1">
-                <p id="section-toc.1-1.3.2.1.1" class="keepWithNext"><a href="#section-3.1" class="xref">3.1</a>.  <a href="#name-setup" class="xref">Setup</a></p>
+<li class="toc ulEmpty" id="section-toc.1-1.3">
+            <p id="section-toc.1-1.3.1" class="keepWithNext"><a href="#section-3" class="xref">3</a>.  <a href="#name-definition-cpace" class="xref">Definition CPace</a><a href="#section-toc.1-1.3.1" class="pilcrow">¶</a></p>
+<ul class="toc ulEmpty">
+<li class="toc ulEmpty" id="section-toc.1-1.3.2.1">
+                <p id="section-toc.1-1.3.2.1.1" class="keepWithNext"><a href="#section-3.1" class="xref">3.1</a>.  <a href="#name-setup" class="xref">Setup</a><a href="#section-toc.1-1.3.2.1.1" class="pilcrow">¶</a></p>
 </li>
-              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.2">
-                <p id="section-toc.1-1.3.2.2.1"><a href="#section-3.2" class="xref">3.2</a>.  <a href="#name-inputs" class="xref">Inputs</a></p>
+<li class="toc ulEmpty" id="section-toc.1-1.3.2.2">
+                <p id="section-toc.1-1.3.2.2.1" class="keepWithNext"><a href="#section-3.2" class="xref">3.2</a>.  <a href="#name-inputs" class="xref">Inputs</a><a href="#section-toc.1-1.3.2.2.1" class="pilcrow">¶</a></p>
 </li>
-              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.3">
-                <p id="section-toc.1-1.3.2.3.1"><a href="#section-3.3" class="xref">3.3</a>.  <a href="#name-notation" class="xref">Notation</a></p>
+<li class="toc ulEmpty" id="section-toc.1-1.3.2.3">
+                <p id="section-toc.1-1.3.2.3.1" class="keepWithNext"><a href="#section-3.3" class="xref">3.3</a>.  <a href="#name-notation" class="xref">Notation</a><a href="#section-toc.1-1.3.2.3.1" class="pilcrow">¶</a></p>
 </li>
-              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.4">
-                <p id="section-toc.1-1.3.2.4.1"><a href="#section-3.4" class="xref">3.4</a>.  <a href="#name-protocol-flow" class="xref">Protocol Flow</a></p>
+<li class="toc ulEmpty" id="section-toc.1-1.3.2.4">
+                <p id="section-toc.1-1.3.2.4.1" class="keepWithNext"><a href="#section-3.4" class="xref">3.4</a>.  <a href="#name-protocol-flow" class="xref">Protocol Flow</a><a href="#section-toc.1-1.3.2.4.1" class="pilcrow">¶</a></p>
 </li>
-              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.5">
-                <p id="section-toc.1-1.3.2.5.1"><a href="#section-3.5" class="xref">3.5</a>.  <a href="#name-cpace" class="xref">CPace</a></p>
+<li class="toc ulEmpty" id="section-toc.1-1.3.2.5">
+                <p id="section-toc.1-1.3.2.5.1" class="keepWithNext"><a href="#section-3.5" class="xref">3.5</a>.  <a href="#name-cpace" class="xref">CPace</a><a href="#section-toc.1-1.3.2.5.1" class="pilcrow">¶</a></p>
 </li>
-            </ul>
+</ul>
 </li>
-          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.4">
-            <p id="section-toc.1-1.4.1"><a href="#section-4" class="xref">4</a>.  <a href="#name-ciphersuites" class="xref">Ciphersuites</a></p>
+<li class="toc ulEmpty" id="section-toc.1-1.4">
+            <p id="section-toc.1-1.4.1" class="keepWithNext"><a href="#section-4" class="xref">4</a>.  <a href="#name-ciphersuites" class="xref">Ciphersuites</a><a href="#section-toc.1-1.4.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5">
-            <p id="section-toc.1-1.5.1"><a href="#section-5" class="xref">5</a>.  <a href="#name-hashing-of-the-password-rel" class="xref">Hashing of the password related string in CPace</a></p>
+<li class="toc ulEmpty" id="section-toc.1-1.5">
+            <p id="section-toc.1-1.5.1" class="keepWithNext"><a href="#section-5" class="xref">5</a>.  <a href="#name-hashing-of-the-password-rel" class="xref">Hashing of the password related string in CPace</a><a href="#section-toc.1-1.5.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.6">
-            <p id="section-toc.1-1.6.1"><a href="#section-6" class="xref">6</a>.  <a href="#name-cpace-on-single-coordinate-" class="xref">CPace on single-coordinate Ladders on Montgomery curves</a></p>
+<li class="toc ulEmpty" id="section-toc.1-1.6">
+            <p id="section-toc.1-1.6.1" class="keepWithNext"><a href="#section-6" class="xref">6</a>.  <a href="#name-cpace-on-single-coordinate-" class="xref">CPace on single-coordinate Ladders on Montgomery curves</a><a href="#section-toc.1-1.6.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.7">
-            <p id="section-toc.1-1.7.1"><a href="#section-7" class="xref">7</a>.  <a href="#name-cpace-on-prime-order-group-" class="xref">CPace on prime-order group abstractions</a></p>
+<li class="toc ulEmpty" id="section-toc.1-1.7">
+            <p id="section-toc.1-1.7.1" class="keepWithNext"><a href="#section-7" class="xref">7</a>.  <a href="#name-cpace-on-prime-order-group-" class="xref">CPace on prime-order group abstractions</a><a href="#section-toc.1-1.7.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.8">
-            <p id="section-toc.1-1.8.1"><a href="#section-8" class="xref">8</a>.  <a href="#name-cpace-on-curves-in-short-we" class="xref">CPace on curves in Short-Weierstrass representation.</a></p>
+<li class="toc ulEmpty" id="section-toc.1-1.8">
+            <p id="section-toc.1-1.8.1" class="keepWithNext"><a href="#section-8" class="xref">8</a>.  <a href="#name-cpace-on-curves-in-short-we" class="xref">CPace on curves in Short-Weierstrass representation.</a><a href="#section-toc.1-1.8.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.9">
-            <p id="section-toc.1-1.9.1"><a href="#section-9" class="xref">9</a>.  <a href="#name-security-considerations" class="xref">Security Considerations</a></p>
+<li class="toc ulEmpty" id="section-toc.1-1.9">
+            <p id="section-toc.1-1.9.1" class="keepWithNext"><a href="#section-9" class="xref">9</a>.  <a href="#name-security-considerations" class="xref">Security Considerations</a><a href="#section-toc.1-1.9.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.10">
-            <p id="section-toc.1-1.10.1"><a href="#section-10" class="xref">10</a>. <a href="#name-iana-considerations" class="xref">IANA Considerations</a></p>
+<li class="toc ulEmpty" id="section-toc.1-1.10">
+            <p id="section-toc.1-1.10.1" class="keepWithNext"><a href="#section-10" class="xref">10</a>. <a href="#name-iana-considerations" class="xref">IANA Considerations</a><a href="#section-toc.1-1.10.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.11">
-            <p id="section-toc.1-1.11.1"><a href="#section-11" class="xref">11</a>. <a href="#name-acknowledgements" class="xref">Acknowledgements</a></p>
+<li class="toc ulEmpty" id="section-toc.1-1.11">
+            <p id="section-toc.1-1.11.1" class="keepWithNext"><a href="#section-11" class="xref">11</a>. <a href="#name-acknowledgements" class="xref">Acknowledgements</a><a href="#section-toc.1-1.11.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.12">
-            <p id="section-toc.1-1.12.1"><a href="#section-12" class="xref">12</a>. <a href="#name-references" class="xref">References</a></p>
-<ul class="compact toc ulBare ulEmpty">
-<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.12.2.1">
-                <p id="section-toc.1-1.12.2.1.1"><a href="#section-12.1" class="xref">12.1</a>.  <a href="#name-normative-references" class="xref">Normative References</a></p>
+<li class="toc ulEmpty" id="section-toc.1-1.12">
+            <p id="section-toc.1-1.12.1" class="keepWithNext"><a href="#section-12" class="xref">12</a>. <a href="#name-references" class="xref">References</a><a href="#section-toc.1-1.12.1" class="pilcrow">¶</a></p>
+<ul class="toc ulEmpty">
+<li class="toc ulEmpty" id="section-toc.1-1.12.2.1">
+                <p id="section-toc.1-1.12.2.1.1" class="keepWithNext"><a href="#section-12.1" class="xref">12.1</a>.  <a href="#name-normative-references" class="xref">Normative References</a><a href="#section-toc.1-1.12.2.1.1" class="pilcrow">¶</a></p>
 </li>
-              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.12.2.2">
-                <p id="section-toc.1-1.12.2.2.1"><a href="#section-12.2" class="xref">12.2</a>.  <a href="#name-informative-references" class="xref">Informative References</a></p>
+<li class="toc ulEmpty" id="section-toc.1-1.12.2.2">
+                <p id="section-toc.1-1.12.2.2.1" class="keepWithNext"><a href="#section-12.2" class="xref">12.2</a>.  <a href="#name-informative-references" class="xref">Informative References</a><a href="#section-toc.1-1.12.2.2.1" class="pilcrow">¶</a></p>
 </li>
-            </ul>
+</ul>
 </li>
-          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.13">
-            <p id="section-toc.1-1.13.1"><a href="#appendix-A" class="xref"></a><a href="#name-authors-addresses" class="xref">Authors' Addresses</a></p>
+<li class="toc ulEmpty" id="section-toc.1-1.13">
+            <p id="section-toc.1-1.13.1" class="keepWithNext"><a href="#section-appendix.a" class="xref"></a><a href="#name-authors-addresses" class="xref">Authors' Addresses</a><a href="#section-toc.1-1.13.1" class="pilcrow">¶</a></p>
 </li>
-        </ul>
+</ul>
 </nav>
 </section>
 </div>
@@ -1381,7 +1363,7 @@ string and send it to B together with the first message. This method is shown in
 setup protocol section below prior to the actual protocol flow.<a href="#section-3.4-8" class="pilcrow">¶</a></p>
 <p id="section-3.4-9">In the following, we describe the protocol using the example of an initiator/responder instantiation
 of CPace where party A starts with the protocol flow.<a href="#section-3.4-9" class="pilcrow">¶</a></p>
-<div class="alignLeft art-text artwork" id="section-3.4-10">
+<div class="artwork art-text alignLeft" id="section-3.4-10">
 <pre>
               A                  B
               | (setup protocol  |
@@ -1471,54 +1453,54 @@ from <span>[<a href="#RFC7748" class="xref">RFC7748</a>]</span> operating on the
 with the specifications for X25519 and X448 and review the guidance given in the security consideration section and
 <span>[<a href="#CPacePaper" class="xref">CPacePaper</a>]</span>.<a href="#section-6-2" class="pilcrow">¶</a></p>
 <p id="section-6-3">For X25519 the following definitions apply:<a href="#section-6-3" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-6-4.1">G.field_size_bytes = 32<a href="#section-6-4.1" class="pilcrow">¶</a>
+<ul>
+<li id="section-6-4.1">G.field_size_bytes = 32<a href="#section-6-4.1" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-6-4.2">G.field_size_bits = 255<a href="#section-6-4.2" class="pilcrow">¶</a>
+<li id="section-6-4.2">G.field_size_bits = 255<a href="#section-6-4.2" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-6-4.3">G.sample_scalar() = sample_random_bytes(G.field_size_bytes)<a href="#section-6-4.3" class="pilcrow">¶</a>
+<li id="section-6-4.3">G.sample_scalar() = sample_random_bytes(G.field_size_bytes)<a href="#section-6-4.3" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-6-4.4">G.scalar_mult(y,g) = G.scalar_mult_vfy(y,g) = X25519(y,g)<a href="#section-6-4.4" class="pilcrow">¶</a>
+<li id="section-6-4.4">G.scalar_mult(y,g) = G.scalar_mult_vfy(y,g) = X25519(y,g)<a href="#section-6-4.4" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-6-4.5">G.I = zero_bytes(G.field_size_bytes)<a href="#section-6-4.5" class="pilcrow">¶</a>
+<li id="section-6-4.5">G.I = zero_bytes(G.field_size_bytes)<a href="#section-6-4.5" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-6-4.6">G.DSI = "CPace255"<a href="#section-6-4.6" class="pilcrow">¶</a>
+<li id="section-6-4.6">G.DSI = "CPace255"<a href="#section-6-4.6" class="pilcrow">¶</a>
 </li>
-      </ul>
+</ul>
 <p id="section-6-5">For X448 the following definitions apply:<a href="#section-6-5" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-6-6.1">G.field_size_bytes = 56<a href="#section-6-6.1" class="pilcrow">¶</a>
+<ul>
+<li id="section-6-6.1">G.field_size_bytes = 56<a href="#section-6-6.1" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-6-6.2">G.field_size_bits = 448<a href="#section-6-6.2" class="pilcrow">¶</a>
+<li id="section-6-6.2">G.field_size_bits = 448<a href="#section-6-6.2" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-6-6.3">G.sample_scalar() = sample_random_bytes(G.field_size_bytes)<a href="#section-6-6.3" class="pilcrow">¶</a>
+<li id="section-6-6.3">G.sample_scalar() = sample_random_bytes(G.field_size_bytes)<a href="#section-6-6.3" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-6-6.4">G.scalar_mult(y,g) = G.scalar_mult_vfy(y,g) = X448(y,g)<a href="#section-6-6.4" class="pilcrow">¶</a>
+<li id="section-6-6.4">G.scalar_mult(y,g) = G.scalar_mult_vfy(y,g) = X448(y,g)<a href="#section-6-6.4" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-6-6.5">G.I = zero_bytes(G.field_size_bytes)<a href="#section-6-6.5" class="pilcrow">¶</a>
+<li id="section-6-6.5">G.I = zero_bytes(G.field_size_bytes)<a href="#section-6-6.5" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-6-6.6">G.DSI = "CPace448"<a href="#section-6-6.6" class="pilcrow">¶</a>
+<li id="section-6-6.6">G.DSI = "CPace448"<a href="#section-6-6.6" class="pilcrow">¶</a>
 </li>
-      </ul>
+</ul>
 <p id="section-6-7">The G.calculate_generator(H, PRS,sid,CI) function shall be implemented as follows.<a href="#section-6-7" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-6-8.1">First gen_str = generator_string(PRS,G.DSI,CI,sid, H.s_in_bytes) is calculated using the input block size of the
+<ul>
+<li id="section-6-8.1">First gen_str = generator_string(PRS,G.DSI,CI,sid, H.s_in_bytes) is calculated using the input block size of the
 chosen hash primitive.<a href="#section-6-8.1" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-6-8.2">This string is then hashed to the required length
+<li id="section-6-8.2">This string is then hashed to the required length
 gen_str_hash = H.hash(gen_str, G.field_size_bytes).
 Note that this implies that the permissible output length H.maxb_in_bytes MUST BE larger or equal to the
 field size of the group G for making a hashing primitive suitable.<a href="#section-6-8.2" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-6-8.3">This result is then considered as a field coordinate using
+<li id="section-6-8.3">This result is then considered as a field coordinate using
 the u = decodeUCoordinate(gen_str_hash, G.field_size_bits) function from <span>[<a href="#RFC7748" class="xref">RFC7748</a>]</span> which we
 repeat in the appendix for convenience.<a href="#section-6-8.3" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-6-8.4">The result point g is then calculated as (g,v) = map_to_curve_elligator2(u) using the function
+<li id="section-6-8.4">The result point g is then calculated as (g,v) = map_to_curve_elligator2(u) using the function
 from <span>[<a href="#I-D.irtf-cfrg-hash-to-curve" class="xref">I-D.irtf-cfrg-hash-to-curve</a>]</span>. Note that the v coordinate produced by the map_to_curve_elligator2 function
 is not required for CPace and discarded.<a href="#section-6-8.4" class="pilcrow">¶</a>
 </li>
-      </ul>
+</ul>
 <p id="section-6-9">In the appendix we show sage code that can be used as reference implementation for the calculate_generator and
 key generation functions.<a href="#section-6-9" class="pilcrow">¶</a></p>
 <p id="section-6-10">The definitions above aim at making the protocol suitable for outsourcing CPace to
@@ -1541,49 +1523,49 @@ information with the low-entropy PRS string.<a href="#section-6-11" class="pilcr
 These abstractions define an encode and decode function, group exponentiation
 and a one-way-map.<a href="#section-7-1" class="pilcrow">¶</a></p>
 <p id="section-7-2">For ristretto255 the following definitions apply:<a href="#section-7-2" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-7-3.1">G.DSI = "CPaceRistretto"<a href="#section-7-3.1" class="pilcrow">¶</a>
+<ul>
+<li id="section-7-3.1">G.DSI = "CPaceRistretto"<a href="#section-7-3.1" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-7-3.2">G.field_size_bytes = 32<a href="#section-7-3.2" class="pilcrow">¶</a>
+<li id="section-7-3.2">G.field_size_bytes = 32<a href="#section-7-3.2" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-7-3.3">G.group_size_bits = 252<a href="#section-7-3.3" class="pilcrow">¶</a>
+<li id="section-7-3.3">G.group_size_bits = 252<a href="#section-7-3.3" class="pilcrow">¶</a>
 </li>
-      </ul>
+</ul>
 <p id="section-7-4">For decaf448 the following definitions apply:<a href="#section-7-4" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-7-5.1">G.DSI = "CPaceDecaf"<a href="#section-7-5.1" class="pilcrow">¶</a>
+<ul>
+<li id="section-7-5.1">G.DSI = "CPaceDecaf"<a href="#section-7-5.1" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-7-5.2">G.field_size_bytes = 56<a href="#section-7-5.2" class="pilcrow">¶</a>
+<li id="section-7-5.2">G.field_size_bytes = 56<a href="#section-7-5.2" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-7-5.3">G.group_size_bits = 486<a href="#section-7-5.3" class="pilcrow">¶</a>
+<li id="section-7-5.3">G.group_size_bits = 486<a href="#section-7-5.3" class="pilcrow">¶</a>
 </li>
-      </ul>
+</ul>
 <p id="section-7-6">For both abstractions the following definitions apply:<a href="#section-7-6" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-7-7.1">G.sample_scalar() = sample_random_bytes(G.group_size_bits) (Todo: add masking the upper bits, clearify how large the scalar shall be. We should ask the ristretto and decaf people here!).<a href="#section-7-7.1" class="pilcrow">¶</a>
+<ul>
+<li id="section-7-7.1">G.sample_scalar() = sample_random_bytes(G.group_size_bits) (Todo: add masking the upper bits, clearify how large the scalar shall be. We should ask the ristretto and decaf people here!).<a href="#section-7-7.1" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-7-7.2">G.scalar_mult(y,g) = encode(g^y)<a href="#section-7-7.2" class="pilcrow">¶</a>
+<li id="section-7-7.2">G.scalar_mult(y,g) = encode(g^y)<a href="#section-7-7.2" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-7-7.3">G.I = encode(g^0), where g is an arbitrary generator<a href="#section-7-7.3" class="pilcrow">¶</a>
+<li id="section-7-7.3">G.I = encode(g^0), where g is an arbitrary generator<a href="#section-7-7.3" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-7-7.4">G.scalar_mult_vfy(y,X) is implemented as follows. If the decode(X) function fails, it returns G.I. Otherwise it returns encode( decode(X)^y )<a href="#section-7-7.4" class="pilcrow">¶</a>
+<li id="section-7-7.4">G.scalar_mult_vfy(y,X) is implemented as follows. If the decode(X) function fails, it returns G.I. Otherwise it returns encode( decode(X)^y )<a href="#section-7-7.4" class="pilcrow">¶</a>
 </li>
-      </ul>
+</ul>
 <p id="section-7-8">Note that with these definitions the scalar_mult function operates on a decoded point g and returns an encoded point,
 while the scalar_mult_vfy(y,X) function operates on a scalar and an encoded point X.<a href="#section-7-8" class="pilcrow">¶</a></p>
 <p id="section-7-9">The G.calculate_generator(H, PRS,sid,CI) function shall return a decoded point and be implemented as follows.<a href="#section-7-9" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-7-10.1">First gen_str = generator_string(PRS,G.DSI,CI,sid, H.s_in_bytes) is calculated using the input block size of the
+<ul>
+<li id="section-7-10.1">First gen_str = generator_string(PRS,G.DSI,CI,sid, H.s_in_bytes) is calculated using the input block size of the
 chosen hash primitive.<a href="#section-7-10.1" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-7-10.2">This string is then hashed to the required length
+<li id="section-7-10.2">This string is then hashed to the required length
 gen_str_hash = H.hash(gen_str, 2 * G.field_size_bytes).
 Note that this implies that the permissible output length H.maxb_in_bytes MUST BE larger or equal to twice the
 field size of the group G for making a hashing primitive suitable.
 Finally the generator g is calculated as g = one_way_map(gen_str_hash) using the one-way map function
 from the abstraction.<a href="#section-7-10.2" class="pilcrow">¶</a>
 </li>
-      </ul>
+</ul>
 </section>
 </div>
 <div id="cpace-on-curves-in-short-weierstrass-representation">
@@ -1596,42 +1578,42 @@ representative might be the curve NIST-P256. In the procedures specified in this
 standards are re-used wherever possible even if this results in some efficiency loss..
 For the procedures described in this section any suitable group MUST BE of prime order.<a href="#section-8-1" class="pilcrow">¶</a></p>
 <p id="section-8-2">Here, any elliptic curve in Short-Weierstrass form is characterized by<a href="#section-8-2" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-8-3.1">An integer constant G.group_order which MUST BE a prime.<a href="#section-8-3.1" class="pilcrow">¶</a>
+<ul>
+<li id="section-8-3.1">An integer constant G.group_order which MUST BE a prime.<a href="#section-8-3.1" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-8-3.2">A verification functio G.is_in_group(X) which returns true if the input X is a valid encoding according to <span>[<a href="#IEEE1363" class="xref">IEEE1363</a>]</span> of a point on the group.<a href="#section-8-3.2" class="pilcrow">¶</a>
+<li id="section-8-3.2">A verification functio G.is_in_group(X) which returns true if the input X is a valid encoding according to <span>[<a href="#IEEE1363" class="xref">IEEE1363</a>]</span> of a point on the group.<a href="#section-8-3.2" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-8-3.3">G.I is an encoding of the x-coordinate according to <span>[<a href="#IEEE1363" class="xref">IEEE1363</a>]</span> of the neutral element on the curve.<a href="#section-8-3.3" class="pilcrow">¶</a>
+<li id="section-8-3.3">G.I is an encoding of the x-coordinate according to <span>[<a href="#IEEE1363" class="xref">IEEE1363</a>]</span> of the neutral element on the curve.<a href="#section-8-3.3" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-8-3.4">G.encode_to_curve(str) is a function defined in <span>[<a href="#I-D.irtf-cfrg-hash-to-curve" class="xref">I-D.irtf-cfrg-hash-to-curve</a>]</span>. It is RECOMMENDED to use the SSWU
+<li id="section-8-3.4">G.encode_to_curve(str) is a function defined in <span>[<a href="#I-D.irtf-cfrg-hash-to-curve" class="xref">I-D.irtf-cfrg-hash-to-curve</a>]</span>. It is RECOMMENDED to use the SSWU
 mapping primitive from <span>[<a href="#I-D.irtf-cfrg-hash-to-curve" class="xref">I-D.irtf-cfrg-hash-to-curve</a>]</span>.<a href="#section-8-3.4" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-8-3.5">A string G.DSI which shall be defined by the concatenation of "CPace" and the cipher suite used for the encode_to_curve function
+<li id="section-8-3.5">A string G.DSI which shall be defined by the concatenation of "CPace" and the cipher suite used for the encode_to_curve function
 from <span>[<a href="#I-D.irtf-cfrg-hash-to-curve" class="xref">I-D.irtf-cfrg-hash-to-curve</a>]</span>.<a href="#section-8-3.5" class="pilcrow">¶</a>
 </li>
-      </ul>
+</ul>
 <p id="section-8-4">Here the following definition of the CPace functions applies.<a href="#section-8-4" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-8-5.1">Here G.sample_scalar() is a function that samples a value between 1 and (G.group_order - 1)
+<ul>
+<li id="section-8-5.1">Here G.sample_scalar() is a function that samples a value between 1 and (G.group_order - 1)
 which MUST BE uniformly random. It is RECOMMENDED to use rejection sampling for converting a uniform bitstring to a
 uniform value between 1 and (G.group_order - 1).<a href="#section-8-5.1" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-8-5.2">G.scalar_mult(s,X) is a function that operates on a scalar s and an input point X encoded in full coordinates according to <span>[<a href="#IEEE1363" class="xref">IEEE1363</a>]</span>.
+<li id="section-8-5.2">G.scalar_mult(s,X) is a function that operates on a scalar s and an input point X encoded in full coordinates according to <span>[<a href="#IEEE1363" class="xref">IEEE1363</a>]</span>.
 It also returns a full-coordinate output (i.e. both, x and y coordinates of the point in Short-Weierstrass form).<a href="#section-8-5.2" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-8-5.3">G.scalar_mult_vfy(s,X) operates on the representation of a scalar s and a full-coordinate point X.
+<li id="section-8-5.3">G.scalar_mult_vfy(s,X) operates on the representation of a scalar s and a full-coordinate point X.
 It MUST BE implemented as follows. if G.is_in_group(X) is false, G.scalar_mult_vfy(s,X) MUST return G.I .
 Otherwise G.scalar_mult_vfy(s,X) MUST returns an encoding of the x-coordinate of X^s according to <span>[<a href="#IEEE1363" class="xref">IEEE1363</a>]</span>.<a href="#section-8-5.3" class="pilcrow">¶</a>
 </li>
-      </ul>
+</ul>
 <p id="section-8-6">For the Short-Weierstrass use-case the G.calculate_generator(H, PRS,sid,CI) function shall be implemented as follows.<a href="#section-8-6" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-8-7.1">First gen_str = generator_string(PRS,G.DSI,CI,sid, H.s_in_bytes) is calculated using the input block size of the
+<ul>
+<li id="section-8-7.1">First gen_str = generator_string(PRS,G.DSI,CI,sid, H.s_in_bytes) is calculated using the input block size of the
 chosen hash primitive.<a href="#section-8-7.1" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-8-7.2">Then the output of a call to G.encode_to_curve(gen_str) is returned.<a href="#section-8-7.2" class="pilcrow">¶</a>
+<li id="section-8-7.2">Then the output of a call to G.encode_to_curve(gen_str) is returned.<a href="#section-8-7.2" class="pilcrow">¶</a>
 </li>
-      </ul>
+</ul>
 </section>
 </div>
 <div id="sec-considerations">
@@ -1649,18 +1631,18 @@ Note that calculation of ISK from K includes the protocol transcript and
 prevents key malleability with respect to man-in-the-middle attacks from active adversaries.<a href="#section-9-3" class="pilcrow">¶</a></p>
 <p id="section-9-4">The definitions given for the case of Curve25519 and Curve448 rely on the following properties of the
 elliptic curves <span>[<a href="#CPacePaper" class="xref">CPacePaper</a>]</span>:<a href="#section-9-4" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-9-5.1">The curve has order (p * c) with p prime and c a small cofactor. Also the curve's quadratic twist must be of
+<ul>
+<li id="section-9-5.1">The curve has order (p * c) with p prime and c a small cofactor. Also the curve's quadratic twist must be of
         order (p' * c') with p' prime and c' a cofactor.<a href="#section-9-5.1" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-9-5.2">The cofactor c' of the twist MUST BE EQUAL to or an integer multiple of the cofactor c of the curve.<a href="#section-9-5.2" class="pilcrow">¶</a>
+<li id="section-9-5.2">The cofactor c' of the twist MUST BE EQUAL to or an integer multiple of the cofactor c of the curve.<a href="#section-9-5.2" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-9-5.3">The representation of the neutral element G.I MUST BE the same for both, the curve and its twist.<a href="#section-9-5.3" class="pilcrow">¶</a>
+<li id="section-9-5.3">The representation of the neutral element G.I MUST BE the same for both, the curve and its twist.<a href="#section-9-5.3" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-9-5.4">Both field order q and group order p are close to a power of two such that randomly sampled binary strings
+<li id="section-9-5.4">Both field order q and group order p are close to a power of two such that randomly sampled binary strings
         can be used as representation for field elements and scalars <span>[<a href="#CPacePaper" class="xref">CPacePaper</a>]</span> .<a href="#section-9-5.4" class="pilcrow">¶</a>
 </li>
-      </ul>
+</ul>
 <p id="section-9-6">Elements received from a peer MUST be checked by a proper implementation of the scalar_mult_vfy methods.
 Failure to properly validate group elements can lead to attacks. The Curve25519-based cipher suite employs
 the twist security feature of the curve for point validation.
@@ -1732,25 +1714,20 @@ settings in this draft.<a href="#section-11-2" class="pilcrow">¶</a></p>
         </h3>
 <dl class="references">
 <dt id="I-D.irtf-cfrg-hash-to-curve">[I-D.irtf-cfrg-hash-to-curve]</dt>
-        <dd>
-<span class="refAuthor">Faz-Hernandez, A.</span>, <span class="refAuthor">Scott, S.</span>, <span class="refAuthor">Sullivan, N.</span>, <span class="refAuthor">Wahby, R. S.</span>, and <span class="refAuthor">C. A. Wood</span>, <span class="refTitle">"Hashing to Elliptic Curves"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-irtf-cfrg-hash-to-curve-12</span>, <time datetime="2021-09-16" class="refDate">16 September 2021</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-hash-to-curve-12">https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-hash-to-curve-12</a>&gt;</span>. </dd>
-<dd class="break"></dd>
+<dd>
+<span class="refAuthor">Faz-Hernandez, A.</span><span class="refAuthor">, Scott, S.</span><span class="refAuthor">, Sullivan, N.</span><span class="refAuthor">, Wahby, R. S.</span><span class="refAuthor">, and C. A. Wood</span>, <span class="refTitle">"Hashing to Elliptic Curves"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-irtf-cfrg-hash-to-curve-12</span>, <time datetime="2021-09-16">16 September 2021</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-hash-to-curve-12.txt">https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-hash-to-curve-12.txt</a>&gt;</span>. </dd>
 <dt id="IEEE1363">[IEEE1363]</dt>
-        <dd>
-<span class="refTitle">"Standard Specifications for Public Key Cryptography, IEEE 1363"</span>, <time datetime="2000" class="refDate">2000</time>. </dd>
-<dd class="break"></dd>
+<dd>
+<span class="refTitle">"Standard Specifications for Public Key Cryptography, IEEE 1363"</span>, <time datetime="2000">2000</time>. </dd>
 <dt id="RFC2119">[RFC2119]</dt>
-        <dd>
-<span class="refTitle">"*** BROKEN REFERENCE ***"</span>. </dd>
-<dd class="break"></dd>
+<dd>
+<span class="refAuthor">Bradner, S.</span>, <span class="refTitle">"Key words for use in RFCs to Indicate Requirement Levels"</span>, <span class="seriesInfo">BCP 14</span>, <span class="seriesInfo">RFC 2119</span>, <span class="seriesInfo">DOI 10.17487/RFC2119</span>, <time datetime="1997-03">March 1997</time>, <span>&lt;<a href="https://doi.org/10.17487/RFC2119">https://doi.org/10.17487/RFC2119</a>&gt;</span>. </dd>
 <dt id="RFC7748">[RFC7748]</dt>
-        <dd>
-<span class="refAuthor">Langley, A.</span>, <span class="refAuthor">Hamburg, M.</span>, and <span class="refAuthor">S. Turner</span>, <span class="refTitle">"Elliptic Curves for Security"</span>, <span class="seriesInfo">RFC 7748</span>, <span class="seriesInfo">DOI 10.17487/RFC7748</span>, <time datetime="2016-01" class="refDate">January 2016</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc7748">https://www.rfc-editor.org/rfc/rfc7748</a>&gt;</span>. </dd>
-<dd class="break"></dd>
+<dd>
+<span class="refAuthor">Langley, A.</span><span class="refAuthor">, Hamburg, M.</span><span class="refAuthor">, and S. Turner</span>, <span class="refTitle">"Elliptic Curves for Security"</span>, <span class="seriesInfo">RFC 7748</span>, <span class="seriesInfo">DOI 10.17487/RFC7748</span>, <time datetime="2016-01">January 2016</time>, <span>&lt;<a href="https://doi.org/10.17487/RFC7748">https://doi.org/10.17487/RFC7748</a>&gt;</span>. </dd>
 <dt id="RFC8174">[RFC8174]</dt>
-      <dd>
-<span class="refAuthor">Leiba, B.</span>, <span class="refTitle">"Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words"</span>, <span class="seriesInfo">BCP 14</span>, <span class="seriesInfo">RFC 8174</span>, <span class="seriesInfo">DOI 10.17487/RFC8174</span>, <time datetime="2017-05" class="refDate">May 2017</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc8174">https://www.rfc-editor.org/rfc/rfc8174</a>&gt;</span>. </dd>
-<dd class="break"></dd>
+<dd>
+<span class="refAuthor">Leiba, B.</span>, <span class="refTitle">"Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words"</span>, <span class="seriesInfo">BCP 14</span>, <span class="seriesInfo">RFC 8174</span>, <span class="seriesInfo">DOI 10.17487/RFC8174</span>, <time datetime="2017-05">May 2017</time>, <span>&lt;<a href="https://doi.org/10.17487/RFC8174">https://doi.org/10.17487/RFC8174</a>&gt;</span>. </dd>
 </dl>
 </section>
 <section id="section-12.2">
@@ -1759,38 +1736,31 @@ settings in this draft.<a href="#section-11-2" class="pilcrow">¶</a></p>
         </h3>
 <dl class="references">
 <dt id="AUCPacePaper">[AUCPacePaper]</dt>
-        <dd>
-<span class="refAuthor">Haase, B.</span> and <span class="refAuthor">B. Labrique</span>, <span class="refTitle">"AuCPace. PAKE protocol tailored for the use in the internet of things"</span>, <time datetime="2018-02" class="refDate">February 2018</time>, <span>&lt;<a href="https://eprint.iacr.org/2018/286">https://eprint.iacr.org/2018/286</a>&gt;</span>. </dd>
-<dd class="break"></dd>
+<dd>
+<span class="refAuthor">Haase, B.</span><span class="refAuthor"> and B. Labrique</span>, <span class="refTitle">"AuCPace. PAKE protocol tailored for the use in the internet of things"</span>, <time datetime="2018-02">February 2018</time>, <span>&lt;<a href="https://eprint.iacr.org/2018/286">https://eprint.iacr.org/2018/286</a>&gt;</span>. </dd>
 <dt id="CDMP05">[CDMP05]</dt>
-        <dd>
-<span class="refAuthor">Coron, J-S.</span>, <span class="refAuthor">Dodis, Y.</span>, <span class="refAuthor">Malinaud, C.</span>, and <span class="refAuthor">P. Puniya</span>, <span class="refTitle">"Merkle-Damgaard Revisited: How to Construct a Hash Function"</span>, <span class="seriesInfo">In Advances in Cryptology - CRYPTO 2005</span>, <span class="seriesInfo">pages 430-448</span>, <span class="seriesInfo">DOI 10.1007/11535218_26</span>, <time datetime="2005" class="refDate">2005</time>, <span>&lt;<a href="https://doi.org/10.1007/11535218_26">https://doi.org/10.1007/11535218_26</a>&gt;</span>. </dd>
-<dd class="break"></dd>
+<dd>
+<span class="refAuthor">Coron, J-S.</span><span class="refAuthor">, Dodis, Y.</span><span class="refAuthor">, Malinaud, C.</span><span class="refAuthor">, and P. Puniya</span>, <span class="refTitle">"Merkle-Damgaard Revisited: How to Construct a Hash Function"</span>, <span class="seriesInfo">DOI 10.1007/11535218_26</span>, <span class="seriesInfo">pages 430-448</span>, <span class="seriesInfo">In Advances in Cryptology - CRYPTO 2005</span>, <time datetime="2005">2005</time>, <span>&lt;<a href="https://doi.org/10.1007/11535218_26">https://doi.org/10.1007/11535218_26</a>&gt;</span>. </dd>
 <dt id="CPacePaper">[CPacePaper]</dt>
-        <dd>
-<span class="refAuthor">Abdalla, M.</span>, <span class="refAuthor">Haase, B.</span>, and <span class="refAuthor">J. Hesse</span>, <span class="refTitle">"Security analysis of CPace"</span>, <span>n.d.</span>, <span>&lt;<a href="https://eprint.iacr.org/2021/114">https://eprint.iacr.org/2021/114</a>&gt;</span>. </dd>
-<dd class="break"></dd>
+<dd>
+<span class="refAuthor">Abdalla, M.</span><span class="refAuthor">, Haase, B.</span><span class="refAuthor">, and J. Hesse</span>, <span class="refTitle">"Security analysis of CPace"</span>, <time datetime="n.d.">n.d.</time>, <span>&lt;<a href="https://eprint.iacr.org/2021/114">https://eprint.iacr.org/2021/114</a>&gt;</span>. </dd>
 <dt id="CPacePaper2">[CPacePaper2]</dt>
-        <dd>
-<span class="refAuthor">Eaton, E.</span> and <span class="refAuthor">D. Stebila</span>, <span class="refTitle">"The 'quantum annoying' property of password-authenticated key exchange protocols."</span>, <span>n.d.</span>, <span>&lt;<a href="https://eprint.iacr.org/2021/696">https://eprint.iacr.org/2021/696</a>&gt;</span>. </dd>
-<dd class="break"></dd>
+<dd>
+<span class="refAuthor">Eaton, E.</span><span class="refAuthor"> and D. Stebila</span>, <span class="refTitle">"The 'quantum annoying' property of password-authenticated key exchange protocols."</span>, <time datetime="n.d.">n.d.</time>, <span>&lt;<a href="https://eprint.iacr.org/2021/696">https://eprint.iacr.org/2021/696</a>&gt;</span>. </dd>
 <dt id="FIPS202">[FIPS202]</dt>
-        <dd>
-<span class="refAuthor">National Institute of Standards and Technology (NIST)</span>, <span class="refTitle">"SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions"</span>, <time datetime="2015-08" class="refDate">August 2015</time>, <span>&lt;<a href="https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf">https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf</a>&gt;</span>. </dd>
-<dd class="break"></dd>
+<dd>
+<span class="refAuthor">National Institute of Standards and Technology (NIST)</span>, <span class="refTitle">"SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions"</span>, <time datetime="2015-08">August 2015</time>, <span>&lt;<a href="https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf">https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf</a>&gt;</span>. </dd>
 <dt id="RFC5869">[RFC5869]</dt>
-        <dd>
-<span class="refAuthor">Krawczyk, H.</span> and <span class="refAuthor">P. Eronen</span>, <span class="refTitle">"HMAC-based Extract-and-Expand Key Derivation Function (HKDF)"</span>, <span class="seriesInfo">RFC 5869</span>, <span class="seriesInfo">DOI 10.17487/RFC5869</span>, <time datetime="2010-05" class="refDate">May 2010</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc5869">https://www.rfc-editor.org/rfc/rfc5869</a>&gt;</span>. </dd>
-<dd class="break"></dd>
+<dd>
+<span class="refAuthor">Krawczyk, H.</span><span class="refAuthor"> and P. Eronen</span>, <span class="refTitle">"HMAC-based Extract-and-Expand Key Derivation Function (HKDF)"</span>, <span class="seriesInfo">RFC 5869</span>, <span class="seriesInfo">DOI 10.17487/RFC5869</span>, <time datetime="2010-05">May 2010</time>, <span>&lt;<a href="https://doi.org/10.17487/RFC5869">https://doi.org/10.17487/RFC5869</a>&gt;</span>. </dd>
 <dt id="RFC6234">[RFC6234]</dt>
-      <dd>
-<span class="refAuthor">Eastlake 3rd, D.</span> and <span class="refAuthor">T. Hansen</span>, <span class="refTitle">"US Secure Hash Algorithms (SHA and SHA-based HMAC and HKDF)"</span>, <span class="seriesInfo">RFC 6234</span>, <span class="seriesInfo">DOI 10.17487/RFC6234</span>, <time datetime="2011-05" class="refDate">May 2011</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc6234">https://www.rfc-editor.org/rfc/rfc6234</a>&gt;</span>. </dd>
-<dd class="break"></dd>
+<dd>
+<span class="refAuthor">Eastlake 3rd, D.</span><span class="refAuthor"> and T. Hansen</span>, <span class="refTitle">"US Secure Hash Algorithms (SHA and SHA-based HMAC and HKDF)"</span>, <span class="seriesInfo">RFC 6234</span>, <span class="seriesInfo">DOI 10.17487/RFC6234</span>, <time datetime="2011-05">May 2011</time>, <span>&lt;<a href="https://doi.org/10.17487/RFC6234">https://doi.org/10.17487/RFC6234</a>&gt;</span>. </dd>
 </dl>
 </section>
 </section>
 <div id="authors-addresses">
-<section id="appendix-A">
+<section id="section-appendix.a">
       <h2 id="name-authors-addresses">
 <a href="#name-authors-addresses" class="section-name selfRef">Authors' Addresses</a>
       </h2>

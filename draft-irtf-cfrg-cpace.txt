@@ -61,9 +61,9 @@ Copyright Notice
    license-info) in effect on the date of publication of this document.
    Please review these documents carefully, as they describe your rights
    and restrictions with respect to this document.  Code Components
-   extracted from this document must include Revised BSD License text as
-   described in Section 4.e of the Trust Legal Provisions and are
-   provided without warranty as described in the Revised BSD License.
+   extracted from this document must include Simplified BSD License text
+   as described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Simplified BSD License.
 
 Table of Contents
 
@@ -686,20 +686,23 @@ Table of Contents
               Progress, Internet-Draft, draft-irtf-cfrg-hash-to-curve-
               12, 16 September 2021,
               <https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-
-              hash-to-curve-12>.
+              hash-to-curve-12.txt>.
 
    [IEEE1363] "Standard Specifications for Public Key Cryptography, IEEE
               1363", 2000.
 
-   [RFC2119]  "*** BROKEN REFERENCE ***".
+   [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
+              Requirement Levels", BCP 14, RFC 2119,
+              DOI 10.17487/RFC2119, March 1997,
+              <https://doi.org/10.17487/RFC2119>.
 
    [RFC7748]  Langley, A., Hamburg, M., and S. Turner, "Elliptic Curves
               for Security", RFC 7748, DOI 10.17487/RFC7748, January
-              2016, <https://www.rfc-editor.org/rfc/rfc7748>.
+              2016, <https://doi.org/10.17487/RFC7748>.
 
    [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
-              May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
+              May 2017, <https://doi.org/10.17487/RFC8174>.
 
 12.2.  Informative References
 
@@ -710,8 +713,8 @@ Table of Contents
 
    [CDMP05]   Coron, J-S., Dodis, Y., Malinaud, C., and P. Puniya,
               "Merkle-Damgaard Revisited: How to Construct a Hash
-              Function", In Advances in Cryptology - CRYPTO 2005,
-              pages 430-448, DOI 10.1007/11535218_26, 2005,
+              Function", DOI 10.1007/11535218_26, pages 430-448,
+              In Advances in Cryptology - CRYPTO 2005, 2005,
               <https://doi.org/10.1007/11535218_26>.
 
    [CPacePaper]
@@ -732,12 +735,12 @@ Table of Contents
    [RFC5869]  Krawczyk, H. and P. Eronen, "HMAC-based Extract-and-Expand
               Key Derivation Function (HKDF)", RFC 5869,
               DOI 10.17487/RFC5869, May 2010,
-              <https://www.rfc-editor.org/rfc/rfc5869>.
+              <https://doi.org/10.17487/RFC5869>.
 
    [RFC6234]  Eastlake 3rd, D. and T. Hansen, "US Secure Hash Algorithms
               (SHA and SHA-based HMAC and HKDF)", RFC 6234,
               DOI 10.17487/RFC6234, May 2011,
-              <https://www.rfc-editor.org/rfc/rfc6234>.
+              <https://doi.org/10.17487/RFC6234>.
 
 Authors' Addresses
 
