@@ -1358,12 +1358,12 @@ higher-level protocol.<a href="#section-3.3-10" class="pilcrow">¶</a></p>
         <h3 id="name-hashing-of-the-password-rel">
 <a href="#section-3.4" class="section-number selfRef">3.4. </a><a href="#name-hashing-of-the-password-rel" class="section-name selfRef">Hashing of the password related string in CPace</a>
         </h3>
-<p id="section-3.4-1">The different instantiations in CPace share the same method for hashing all of PRS, CI, SID and a domain-separation string DSI
-into a generator string.<a href="#section-3.4-1" class="pilcrow">¶</a></p>
+<p id="section-3.4-1">The different instantiations in CPace share the same method for combining all of PRS, CI, sid and a domain-separation string G.DSI
+whithin a generator string.<a href="#section-3.4-1" class="pilcrow">¶</a></p>
 <p id="section-3.4-2">With generator_string(PRS,DSI,CI,sid, H.s_in_bytes) we denote a function that returns the string
-prefix_free_cat(PRS,zero_bytes(len_zpad), DSI, CI, sid) in which all input strings are concatenated
-such that the encoding of PRS together with a suitable zero pad field completely fills the first input block
-of the hash.<a href="#section-3.4-2" class="pilcrow">¶</a></p>
+prefix_free_cat(PRS,zero_bytes(len_zpad), DSI, CI, sid) in which all input strings are concatenated.
+The zero padding is designed such that the encoding of PRS together with the zero padding field completely fills the first
+input block of the hash.<a href="#section-3.4-2" class="pilcrow">¶</a></p>
 <p id="section-3.4-3">The length len_zpad of the zero padding is calculated as len_zpad = MAX(0, H.s_in_bytes - len(prepend_length(PRS)) - 1).<a href="#section-3.4-3" class="pilcrow">¶</a></p>
 </section>
 </div>
