@@ -1667,7 +1667,8 @@ rely on the property that both, field order q and group order p MUST BE close to
 For a detailed discussion see <span>[<a href="#CPacePaper" class="xref">CPacePaper</a>]</span>, Appendix E.<a href="#section-8-9" class="pilcrow">¶</a></p>
 <p id="section-8-10">Elements received from a peer MUST be checked by a proper implementation of the scalar_mult_vfy methods.
 Failure to properly validate group elements can lead to trivial attacks.<a href="#section-8-10" class="pilcrow">¶</a></p>
-<p id="section-8-11">Secret scalars ya and yb MUST NOT be reused. Session id values sid SHOULD NOT be reused.<a href="#section-8-11" class="pilcrow">¶</a></p>
+<p id="section-8-11">Secret scalars ya and yb MUST NOT be reused. Values for sid SHOULD NOT be reused as the composability
+guarantees of the simulation-based proof rely on uniqueness of session ids <span>[<a href="#CPacePaper" class="xref">CPacePaper</a>]</span>.<a href="#section-8-11" class="pilcrow">¶</a></p>
 <p id="section-8-12">CPace was not originally meant to be used in conjunction with servers supporting several users and, thus
 several different username/password pairs. As such it does not provide mechanisms for agreeing on salt values which are required
 for iterated password-hashing functions which should be used for storing credentials (see e.g. the discussion in <span>[<a href="#AUCPacePaper" class="xref">AUCPacePaper</a>]</span> where
