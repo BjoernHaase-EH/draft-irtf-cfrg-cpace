@@ -1595,13 +1595,13 @@ while the scalar_mult_vfy(y,X) function operates on a scalar and an encoded poin
       </h2>
 <p id="section-7-1">In this section we target ecosystems using elliptic-curve representations in Short-Weierstrass form. A typical
 representative might be the curve NIST-P256. In the procedures specified in this section existing encoding and curve
-standards are re-used wherever possible even if this results in some efficiency loss..
+standards are re-used wherever possible even if this results in some efficiency loss.
 For the procedures described in this section any suitable group MUST BE of prime order.<a href="#section-7-1" class="pilcrow">¶</a></p>
 <p id="section-7-2">Here, any elliptic curve in Short-Weierstrass form is characterized by<a href="#section-7-2" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-7-3.1">An integer constant G.group_order which MUST BE a prime.<a href="#section-7-3.1" class="pilcrow">¶</a>
 </li>
-        <li class="normal" id="section-7-3.2">A verification functio G.is_in_group(X) which returns true if the input X is a valid encoding according to <span>[<a href="#IEEE1363" class="xref">IEEE1363</a>]</span> of a point on the group.<a href="#section-7-3.2" class="pilcrow">¶</a>
+        <li class="normal" id="section-7-3.2">A verification function G.is_in_group(X) which returns true if the input X is a valid encoding according to <span>[<a href="#IEEE1363" class="xref">IEEE1363</a>]</span> of a point on the group.<a href="#section-7-3.2" class="pilcrow">¶</a>
 </li>
         <li class="normal" id="section-7-3.3">G.I is an encoding of the x-coordinate according to <span>[<a href="#IEEE1363" class="xref">IEEE1363</a>]</span> of the neutral element on the curve.<a href="#section-7-3.3" class="pilcrow">¶</a>
 </li>
