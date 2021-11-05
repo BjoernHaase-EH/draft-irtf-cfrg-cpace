@@ -5,10 +5,10 @@
 Network Working Group                                         M. Abdalla
 Internet-Draft                       DI, École Normale Supérieure, Paris
 Intended status: Informational                                  B. Haase
-Expires: 8 May 2022                     Endress + Hauser Liquid Analysis
+Expires: 9 May 2022                     Endress + Hauser Liquid Analysis
                                                                 J. Hesse
                                          IBM, Zürich Research Laboratory
-                                                         4 November 2021
+                                                         5 November 2021
 
 
                    CPace, a balanced composable PAKE
@@ -49,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 8 May 2022.
+   This Internet-Draft will expire on 9 May 2022.
 
 Copyright Notice
 
@@ -86,6 +86,19 @@ Table of Contents
    11. References
      11.1.  Normative References
      11.2.  Informative References
+   Appendix A.  Sage definitions for the CPace functions
+     A.1.  Sage definitions for string utility functions
+     A.2.  Sage definitions for hash primitives
+     A.3.  Sage definitions for single-coordinate CPace on Montgomery
+           curves
+     A.4.  Sage definitions for group abstractions
+     A.5.  Sage definitions for Short-Weierstrass
+   Appendix B.  Test vectors
+     B.1.  Test vectors for CPace255
+     B.2.  Test vectors for CPace448
+     B.3.  Test vectors for CPaceRistretto
+     B.4.  Test vectors for CPaceDecaf
+   Appendix C.  Test vectors for CPaceP256
    Authors' Addresses
 
 1.  Introduction
@@ -802,6 +815,50 @@ Table of Contents
               (SHA and SHA-based HMAC and HKDF)", RFC 6234,
               DOI 10.17487/RFC6234, May 2011,
               <https://www.rfc-editor.org/rfc/rfc6234>.
+
+Appendix A.  Sage definitions for the CPace functions
+
+A.1.  Sage definitions for string utility functions
+
+   TBD.
+
+A.2.  Sage definitions for hash primitives
+
+   TBD.
+
+A.3.  Sage definitions for single-coordinate CPace on Montgomery curves
+
+   TBD.
+
+A.4.  Sage definitions for group abstractions
+
+   TBD.
+
+A.5.  Sage definitions for Short-Weierstrass
+
+   TBD.
+
+Appendix B.  Test vectors
+
+B.1.  Test vectors for CPace255
+
+   TBD.
+
+B.2.  Test vectors for CPace448
+
+   TBD.
+
+B.3.  Test vectors for CPaceRistretto
+
+   TBD.
+
+B.4.  Test vectors for CPaceDecaf
+
+   TBD.
+
+Appendix C.  Test vectors for CPaceP256
+
+   TBD.
 
 Authors' Addresses
 
